@@ -1,1 +1,1 @@
-worker : python3 -m start.sh
+DaisyX : python3 -m DaisyX
