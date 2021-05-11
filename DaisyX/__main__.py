@@ -80,7 +80,7 @@ async def start_bot():
 
 if __name__ == '__main__':
 	StartTime = int(time.time())
-	loop.run_until_complete(start_bot())'''
+	loop.run_until_complete(start_bot())
 
 
 def __list_all_modules():
@@ -97,3 +97,4 @@ def __list_all_modules():
 ALL_MODULES = sorted(__list_all_modules())
 __all__ = ALL_MODULES + ["ALL_MODULES"]
 
+'''
