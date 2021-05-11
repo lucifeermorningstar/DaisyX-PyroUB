@@ -13,7 +13,7 @@ logging.basicConfig(
 
 from pyrogram import filters
 from DaisyX import daisy as app, get_self, Command
-
+print("Bsdk1")
 from DaisyX.modules import ALL_MODULES
 
 StartTime = 0
@@ -83,7 +83,7 @@ async def start_bot():
 if __name__ == '__main__':
 	StartTime = int(time.time())
 	loop.run_until_complete(start_bot())
-
+print("Bsdk2")
 '''
 def __list_all_modules():
     from os.path import dirname, basename, isfile
