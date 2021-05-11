@@ -8,6 +8,9 @@
 
 
 import os
+
+os.environ.get("pip install -r requirements.txt") 
+
 import time
 import logging
 
