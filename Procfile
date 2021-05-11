@@ -1,1 +1,1 @@
-worker : python -m DaisyX
+worker : python3 -m DaisyX
