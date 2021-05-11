@@ -1,1 +1,1 @@
-worker: python3 -m DaisyX
+worker : chmod +x start.sh && bash start.sh
