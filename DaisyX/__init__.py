@@ -1,6 +1,6 @@
-# (c) Copyright 21-22 by lucifeermorningstar
-#
-#
+# (c) Copyright 21-22 by Devil ( lucifeermorningstar ) 
+# All Written by @lucifeermorningstar.
+# For DaisyX Userbot. 
 #
 #
 #
