@@ -1,0 +1,47 @@
+{
+  "name": "𝙳ᴀ𝙸s𝚈 x",
+  "description": "ᴛʜᴇ sᴜᴘᴇʀ ᴜsᴇʀʙᴏᴛ ᴍᴀᴅᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴅᴀɪsʏ x. ᴊᴏɪɴ @DAISYXOT ғᴏʀ ʜᴇʟᴘ ",
+  "logo": "https://telegra.ph/file/bf8271a7d712004202ba7.jpg",
+    "keywords": [
+    "telegram",
+    "daisy x", 
+    "telthon bot", 
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/TeamDaisyX/Daisy-X-UB/",
+  "website": "https://github.com/TeamDaisyX/Daisy-X-UB/",
+  "success_url": "https://t.me/DaisyXOT",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "value": ""
+    }, 
+    "STRING_SESSION": {
+      "description": "Get this value by running https://replit.com/@legendx22/ULTRA-X#main.py ",
+      "value": ""
+    },
+    
+    "TOKEN": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
