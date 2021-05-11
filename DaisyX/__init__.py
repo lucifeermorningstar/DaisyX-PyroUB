@@ -10,10 +10,15 @@
 import os
 import time
 import logging
+from logging import basicConfig, getLogger, INFO
 
 from pyrogram import Client
 from config import API_ID, API_HASH, STRING_SESSION, TOKEN
 
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+)
+LOGGER = logging.getLogger(__name__)
 
 StartTime = time.time()
 
