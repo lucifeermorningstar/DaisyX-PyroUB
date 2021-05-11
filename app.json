@@ -33,9 +33,7 @@
       "description": "Go to some bot, and check your id there. Ex. @EmiliaHikariBot or @MissRose_bot.",
       "value": ""
     },
-
-    },
-    "BITLY_API": {
+    "STRING_SESSION": {
       "description": "(optional) Fill your Bitly API, register here: https://dev.bitly.com/my_apps.html",
       "required": false
     }
