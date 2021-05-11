@@ -10,6 +10,5 @@ from DaisyX import daisy
 async def alive(events):
    chat = message.chat.id
    await daisy.send_message(chat, "Master ! I am alive :)")
-   import asyncio
    await asyncio.sleep(2)
    await send.edit_text(" coming soon 🔥 ") 
