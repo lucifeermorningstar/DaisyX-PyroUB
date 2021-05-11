@@ -30,8 +30,7 @@
     "STRING_SESSION": {
       "description": "Get this value by running https://replit.com/@legendx22/ULTRA-X#main.py ",
       "value": ""
-    },
-    
+    },   
     "TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
       "value": ""
