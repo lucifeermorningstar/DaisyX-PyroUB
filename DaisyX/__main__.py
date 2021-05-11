@@ -7,8 +7,7 @@ import traceback
 import threading
 import asyncio
 
-import pyrogram
-from pyrogram import Filters
+from pyrogram import filters
 from DaisyX import daisy as app, get_self, Command
 
 from DaisyX.modules import ALL_MODULES
