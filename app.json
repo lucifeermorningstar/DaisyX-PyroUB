@@ -1,7 +1,7 @@
 {
-  "name": "Nana - Telegram Userbot with Assistant",
+  "name": "DaisyX - Telegram Userbot with Assistant",
   "description": "A modular Telegram Userbot with Assistant running on Python 3.6+",
-  "logo": "https://i.imgur.com/m7KfBVq.png",
+  "logo": "",
   "keywords": [
     "telegram",
     "userbot",
@@ -12,9 +12,9 @@
     "productivity",
     "testing"
   ],
-  "repository": "https://github.com/AyraHikari/Nana-Userbot",
-  "website": "https://github.com/AyraHikari/Wiki-Nana-TgBot/wiki",
-  "success_url": "https://t.me/AyraSupport",
+  "repository": "",
+  "website": "",
+  "success_url": "",
   "stack": "container",
   "env": {
     "ENV": {
