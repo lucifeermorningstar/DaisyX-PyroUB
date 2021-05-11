@@ -42,7 +42,8 @@ OwnerUsername = ""
 TEST_DEVELOP = False
 	
 async def get_self():
-	global Owner, OwnerName, OwnerUsername, AdminSettings
+	global Owner, OwnerName, OwnerUsername
+
 	getself = await daisy.get_me()
 	Owner = getself.id
 	if getself.last_name:
