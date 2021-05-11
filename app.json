@@ -15,7 +15,7 @@
   "repository": "",
   "website": "",
   "success_url": "",
-  "stack": "container",
+  "stack": "heroku-20",
   "env": {
     "ENV": {
       "description": "Fill this if you using environ variable as config.",
