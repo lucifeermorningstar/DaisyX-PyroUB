@@ -1,46 +1,56 @@
 {
-  "name": "𝙳ᴀ𝙸s𝚈 x",
-  "description": "ᴛʜᴇ sᴜᴘᴇʀ ᴜsᴇʀʙᴏᴛ ᴍᴀᴅᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴅᴀɪsʏ x. ᴊᴏɪɴ @DAISYXOT ғᴏʀ ʜᴇʟᴘ ",
-  "logo": "https://telegra.ph/file/bf8271a7d712004202ba7.jpg",
-    "keywords": [
+  "name": "Nana - Telegram Userbot with Assistant",
+  "description": "A modular Telegram Userbot with Assistant running on Python 3.6+",
+  "logo": "https://i.imgur.com/m7KfBVq.png",
+  "keywords": [
     "telegram",
-    "daisy x", 
-    "telthon bot", 
     "userbot",
     "plugin",
     "modular",
-    "productivity"
+    "nana",
+    "pyrogram",
+    "productivity",
+    "testing"
   ],
-  "repository": "https://github.com/TeamDaisyX/Daisy-X-UB/",
-  "website": "https://github.com/TeamDaisyX/Daisy-X-UB/",
-  "success_url": "https://t.me/DaisyXOT",
+  "repository": "https://github.com/AyraHikari/Nana-Userbot",
+  "website": "https://github.com/AyraHikari/Wiki-Nana-TgBot/wiki",
+  "success_url": "https://t.me/AyraSupport",
+  "stack": "container",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
+      "description": "Fill this if you using environ variable as config.",
+      "value": "Yes"
     },
     "API_ID": {
-      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "description": "Get this value from https://my.telegram.org/apps",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "description": "Get this value from https://my.telegram.org/apps",
       "value": ""
-    }, 
-    "STRING_SESSION": {
-      "description": "Get this value by running https://replit.com/@legendx22/ULTRA-X#main.py ",
-      "value": ""
-    },   
+    },
     "TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "description": "Go to some bot, and check your id there. Ex. @EmiliaHikariBot or @MissRose_bot.",
       "value": ""
+    },
+
+    },
+    "BITLY_API": {
+      "description": "(optional) Fill your Bitly API, register here: https://dev.bitly.com/my_apps.html",
+      "required": false
     }
   },
   "addons": [
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "9.5"
       }
     }
-  
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}
