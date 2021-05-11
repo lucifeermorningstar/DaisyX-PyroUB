@@ -13,14 +13,13 @@ import logging
 from pyrogram import Client
 from config import API_ID, API_HASH, STRING_SESSION, TOKEN
 
+
 StartTime = time.time()
 
-DaisyX = Client(
+daisy = Client(
       session_name=STRING_SESSION,
       api_id=API_ID,
       api_hash=API_HASH,
-      bot_token=TOKEN,
-      workers=3,
-      sleep_threshold=5,
+      sleep_threshold=180,
 )
 
