@@ -32,3 +32,24 @@ assist = Client(
         sleep_threshold=180,
     )
 
+
+# For Skem Purpose
+
+Owner = 0
+OwnerName = ""
+OwnerUsername = ""
+
+TEST_DEVELOP = False
+	
+async def get_self():
+	global Owner, OwnerName, OwnerUsername, AdminSettings
+	getself = await daisy.get_me()
+	Owner = getself.id
+	if getself.last_name:
+		OwnerName = getself.first_name + " " + getself.last_name
+	else:
+		OwnerName = getself.first_name
+	OwnerUsername = getself.username
+	if not TEST_DEVELOP:
+		print("Welcome: {}".format(OwnerName))
+
