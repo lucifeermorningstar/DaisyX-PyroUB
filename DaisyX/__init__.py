@@ -20,4 +20,6 @@ DaisyX = Client(
       api_id=API_ID,
       api_hash=API_HASH,
       bot_token=TOKEN,
+      workers=3,
+      sleep_threshold=5,
 )
