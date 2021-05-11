@@ -10,7 +10,7 @@ import asyncio
 
 import pyrogram
 from pyrogram import Filters
-from DaisyX import daisy as app
+from DaisyX import daisy as app, get_self
 
 from DaisyX.modules import ALL_MODULES
 
