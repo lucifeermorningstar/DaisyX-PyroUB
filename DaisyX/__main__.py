@@ -1,5 +1,4 @@
-
-'''import time
+import time
 import logging
 import importlib
 import random
@@ -82,7 +81,7 @@ if __name__ == '__main__':
 	StartTime = int(time.time())
 	loop.run_until_complete(start_bot())
 
-
+'''
 def __list_all_modules():
     from os.path import dirname, basename, isfile
     import glob
