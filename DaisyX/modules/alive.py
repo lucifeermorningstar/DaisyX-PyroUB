@@ -6,5 +6,6 @@ from DaisyX import daisy
 
 @daisy.on_message(filters.command("alive")) 
 async def alive(events):
-   chat = message.chat_id
+   chat = message.chat.id
    await daisy.send_message(chat, "Master ! I am alive :)")
+   await send.edit_text(" coming soon 🔥 ") 
