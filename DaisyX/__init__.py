@@ -10,7 +10,6 @@
 import os
 import time
 import logging
-from logging import basicConfig, getLogger, INFO
 
 from pyrogram import Client
 from config import API_ID, API_HASH, STRING_SESSION, TOKEN
