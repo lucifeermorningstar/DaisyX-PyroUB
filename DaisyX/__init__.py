@@ -33,7 +33,7 @@ assist = Client(
     )
 
 
-# For Skem Purpose
+''' For Skem Purpose
 
 Owner = 0
 OwnerName = ""
@@ -55,4 +55,4 @@ async def get_self():
 		print("Welcome: {}".format(OwnerName))
 
 # Command Prefix
-Command = [".", "!","?"]
+Command = [".", "!","?"]'''
