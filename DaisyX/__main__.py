@@ -7,6 +7,10 @@ import traceback
 import threading
 import asyncio
 
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+)
+
 from pyrogram import filters
 from DaisyX import daisy as app, get_self, Command
 
