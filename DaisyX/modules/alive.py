@@ -1,6 +1,8 @@
 # Copyright (c) 21-22 by lucifeermorningstar@GitHub < https://github.com/lucifeermorningstar >
 # Alive For DaisyX Userbot
 
+import asyncio
+
 from pyrogram import filters
 from DaisyX import daisy
 
@@ -8,4 +10,6 @@ from DaisyX import daisy
 async def alive(events):
    chat = message.chat.id
    await daisy.send_message(chat, "Master ! I am alive :)")
+   import asyncio
+   await asyncio.sleep(2)
    await send.edit_text(" coming soon 🔥 ") 
