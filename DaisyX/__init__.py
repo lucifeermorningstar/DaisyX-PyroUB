@@ -54,3 +54,5 @@ async def get_self():
 	if not TEST_DEVELOP:
 		print("Welcome: {}".format(OwnerName))
 
+# Command Prefix
+Command = [".", "!","?"]
