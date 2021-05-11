@@ -11,7 +11,7 @@ import os
 import logging
 
 from pyrogram import Client
-from config import API_ID, API_HASH, STRING_SESSION, TOKEN
+from config import API_ID, API_HASH, SESSION, TOKEN
 
 
 StartTime = time.time()
