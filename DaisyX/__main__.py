@@ -1,5 +1,5 @@
 
-import time
+'''import time
 import logging
 import importlib
 import random
@@ -80,4 +80,20 @@ async def start_bot():
 
 if __name__ == '__main__':
 	StartTime = int(time.time())
-	loop.run_until_complete(start_bot())
+	loop.run_until_complete(start_bot())'''
+
+
+def __list_all_modules():
+    from os.path import dirname, basename, isfile
+    import glob
+    mod_paths = glob.glob(dirname(__file__) + "/*.py")
+    return [
+        basename(f)[:-3] for f in mod_paths if isfile(f)
+        and f.endswith(".py")
+        and not f.endswith('__init__.py')
+        ]
+
+
+ALL_MODULES = sorted(__list_all_modules())
+__all__ = ALL_MODULES + ["ALL_MODULES"]
+
