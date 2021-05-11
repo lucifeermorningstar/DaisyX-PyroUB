@@ -10,13 +10,16 @@ import asyncio
 
 import pyrogram
 from pyrogram import Filters
-from DaisyX import daisy as app, get_self
+from DaisyX import daisy as app, get_self, Command
 
 from DaisyX.modules import ALL_MODULES
 
 StartTime = 0
 
 loop = asyncio.get_event_loop()
+
+async def get_runtime():
+	return StartTime
 
 async def reload_userbot():
 	await app.start()
