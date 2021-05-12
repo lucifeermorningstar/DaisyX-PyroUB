@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 from pyrogram import filters
-from DaisyX import daisy as app, get_self, Command
+from DaisyX import daisy as app, get_self, Command, LOGGER
 
 from DaisyX.modules import ALL_MODULES
 
@@ -74,11 +74,11 @@ async def start_bot():
 		imported_module = importlib.import_module("DaisyX.modules." + modul)
 		if hasattr(imported_module, "__MODULE__") and imported_module.__MODULE__:
 			imported_module.__MODULE__ = imported_module.__MODULE__
-	log.info("-----------------------")
-	log.info("DaisyX modules: " + str(ALL_MODULES))
+	LOGGER.info("-----------------------")
+	LOGGER.info("DaisyX modules: " + str(ALL_MODULES))
 	print("Module was loaded: " + ", ".join(ALL_MODULES))
-	log.info("-----------------------")
-	log.warning("──「 DaisyX run successfully! 」──")
+	LOGGER.info("-----------------------")
+	LOGGER.info("──「 DaisyX run successfully! 」──")
 
 if __name__ == '__main__':
 	StartTime = int(time.time())
